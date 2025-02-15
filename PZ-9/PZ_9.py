@@ -10,7 +10,7 @@ student['Группа'] = inf[2]
 student['Оценки'] = []
 for i in inf[3:]:
  student['Оценки'].append(int(i))
-sr_ar = sum(student['Оценки'])/2
+sr_ar = sum(student['Оценки'])/9
 print(student)
 print(sr_ar)
 
